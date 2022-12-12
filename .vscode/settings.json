@@ -1,0 +1,8 @@
+{
+    "customLocalFormatters.formatters": [
+        {
+          "command": "powershell -File format.ps1 ${file}",
+          "languages": ["ca65"]
+        }
+    ]
+}
