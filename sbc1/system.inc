@@ -36,7 +36,7 @@
 .define I_SKZ 14
 .define I_NOPF 15
 
-IN0 = $0
+RR = $0
 IN1 = $1
 IN2 = $2
 IN3 = $3
@@ -44,8 +44,6 @@ IN4 = $4
 IN5 = $5
 IN6 = $6
 IN7 = $7
-
-RR = $0
 
 OUT0 = $0
 OUT1 = $1

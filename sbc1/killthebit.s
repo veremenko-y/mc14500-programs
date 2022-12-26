@@ -62,13 +62,13 @@ BIT_M6 = MEM7
     ld      TMP    ; restore RR
 
     ; *** run once on startup ***
-    ldc     RR     ; RR == 1 at reset
+    ldc     RR     ; RR is 0 at reset
     oen     RR     ; enable init branch
     sto     BIT_M0 ; initialize memory with 1 initial bit
 
     ; *** main loop ***
     orc     RR     ; 1 -> RR
-    oen     RR     ; enable main loop
+    oen     RR     ; force enable main loop
 
     ; display all the bits
 .repeat 7,I
