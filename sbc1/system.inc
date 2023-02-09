@@ -45,23 +45,24 @@ IN5 = $5
 IN6 = $6
 IN7 = $7
 
-OUT0 = $0
-OUT1 = $1
-OUT2 = $2
-OUT3 = $3
-OUT4 = $4
-OUT5 = $5
-OUT6 = $6
-OUT7 = $7
+MEM0 = $0
+MEM1 = $1
+MEM2 = $2
+MEM3 = $3
+MEM4 = $4
+MEM5 = $5
+MEM6 = $6
+MEM7 = $7
 
-MEM0 = $8
-MEM1 = $9
-MEM2 = $A
-MEM3 = $B
-MEM4 = $C
-MEM5 = $D
-MEM6 = $E
-MEM7 = $F
+OUT0 = $8
+OUT1 = $9
+OUT2 = $A
+OUT3 = $B
+OUT4 = $C
+OUT5 = $D
+OUT6 = $E
+OUT7 = $F
+
 
 .macro __lit_instr op, addr
     .if (addr > $0F)
