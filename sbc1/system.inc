@@ -1,3 +1,8 @@
+;
+; MC14500 assembler using ca65 macros
+; Yaroslav Veremenko (c) 2022
+;
+
 .feature ubiquitous_idents
 .feature string_escapes
 .setcpu "none"
@@ -62,7 +67,6 @@ OUT4 = $C
 OUT5 = $D
 OUT6 = $E
 OUT7 = $F
-
 
 .macro __lit_instr op, addr
     .if (addr > $0F)
