@@ -91,7 +91,7 @@ OUT7 = $F
 .macro and addr     ; 0011: AND
     __instr I_AND, addr
 .endmacro
-.macro andc          ; 0100: ANDC
+.macro andc addr     ; 0100: ANDC
     __instr I_ANDC, addr
 .endmacro
 .macro or addr      ; 0101: OR
