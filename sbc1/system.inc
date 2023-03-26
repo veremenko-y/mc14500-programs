@@ -41,14 +41,14 @@
 .define I_SKZ 14
 .define I_NOPF 15
 
-RR = $0
-IN1 = $1
-IN2 = $2
-IN3 = $3
-IN4 = $4
-IN5 = $5
-IN6 = $6
-IN7 = $7
+RR = $8
+IN1 = $9
+IN2 = $A
+IN3 = $B
+IN4 = $C
+IN5 = $D
+IN6 = $E
+IN7 = $F
 
 MEM0 = $0
 MEM1 = $1
